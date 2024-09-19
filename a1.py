@@ -153,10 +153,8 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     while len(lst)>2:
         place +=3
         if place > len(lst):
-            place = place - len(lst)
-        print(place)
+            place -= len(lst)
         lst.pop(place-1)
-        print(lst)
         place -= 1
     return lst
 #        x x x x x
@@ -173,6 +171,7 @@ if __name__ == "__main__":
     ], "every_other of [1,2,3,4,5] failed"
     assert sum_list([1, 2, 3]) == 6, "sum_list of [1,2,3] failed"
     assert mean([1, 2, 3, 4, 5]) == 3, "mean of [1,2,3,4,5] failed"
+    assert median([1,3,7,8]) == 5, "median 1 fail"
     assert median([1, 2, 3, 4, 5]) == 3, "median of [1,2,3,4,5] failed"
 
     names = ["roscoe", "kim", "woz", "solin", "law", "remess"]
