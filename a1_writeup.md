@@ -13,11 +13,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 ## Reflection Questions
 
 1. What is your initial thoughts about the python programming language?
-
+    i've used python before and i like the language, its very simple and does a lot stuff for you one problem i do have with it is that in larger programs is gets pretty slow.
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
-
+    its simmaler in functions (data types are the same and loops are very simmiler)and is object based. with funcions and such
 
 
 3. What are some things that you learned through this assignment?
+    i learned that ::x can be used to take certain parts of a list.
