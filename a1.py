@@ -151,11 +151,10 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     """
     place = 0
     while len(lst)>2:
-        place +=3
+        place +=2
         if place > len(lst):
             place -= len(lst)
-        lst.pop(place-1)
-        place -= 1
+        lst.pop(place)
     return lst
 #        x x x x x
 
@@ -176,5 +175,7 @@ if __name__ == "__main__":
 
     names = ["roscoe", "kim", "woz", "solin", "law", "remess"]
     assert duck_duck_goose(names) == ["roscoe", "law"]
+    names2 = ["me", "me2", "me3", "me4"]
+    assert duck_duck_goose(names2) == ["me", "me4"]
 
     print("All tests passed!")
